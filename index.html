@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- aos cdn link -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+</head>
+<body>
+  <div class="background-color">
+ <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body">
+        <div class="container-fluid">
+          <a class="navbar-brand"
+           href="#">Monito</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-5" href="#">Category</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ms-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  more
+                </a>
+                <ul class="dropdown-menu ms-5">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-5" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-5" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-5 rounded-pill w-30" type="search" placeholder="Search Something here!" aria-label="Search">
+              <button class="btn btn-outline me-5 rounded-pill" id="btn3" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--home -->
+     <img class="img1" src="./Herro Banner.jpg" alt="">
+     <a href="#" class="btn btn btn-lg rounded-pill animate__animated animate__bounce"  id="btn1">View intro</a>
+     <button type="button" class="btn btn btn-lg rounded-pill animate__animated animate__bounce" id="btn2">Explore now</button>
+    </div>
+     <!-- cards -->
+      <div class="container-fluid">
+
+        <div class="card">
+        <h1 class="text-center">Explore Pets!</h1>
+        <h2 class="">Explore Our Puppies.....!</h2>
+        <!-- card 1 -->
+      <div class="row">
+        <div class="col-2 mb-5"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEboMkjdVkPvKbQpD02L7XB38vF1lZCIoPog&s" alt="" class="card-img-top">
+           <h2 class="card-title">Pomeranian</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:2999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+         <!-- card 2-->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://cdn.webshopapp.com/shops/43367/files/440838796/shih-tzu.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Shihtzu</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:6999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+         <!-- card 3 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://i.pinimg.com/564x/bf/10/45/bf1045dfe11173378c51e5ab0bce6dd2.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Labrador</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:3999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+         <!-- card 4-->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://cdn.shopify.com/s/files/1/0086/0795/7054/files/essentials.jpg?v=1633696836" alt="" class="card-img-top">
+           <h2 class="card-title">German Shepherd</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:6999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+         <!-- card 5 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://img.freepik.com/premium-photo/puppy-rottweiler-front-white-background_87557-22395.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Rottweiler </h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:8999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+         <!-- card 6 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://st2.depositphotos.com/3320817/7016/i/950/depositphotos_70168689-stock-photo-siberian-husky-puppy-on-white.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Husky</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:20999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+        
+          <!-- card 7-->
+        <div class="col-2 mb-5"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body ">
+           <img src="https://images.pond5.com/golden-retriever-puppy-2-months-photo-052918054_iconl_nowm.jpeg" alt="" class="card-img-top">
+           <h2 class="card-title">Golden Retriever</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:10999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 8 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://www.shutterstock.com/image-photo/dachshund-puppy-3-months-old-260nw-66473905.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Dachshund</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:3999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 9 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://media.istockphoto.com/id/136651066/photo/photograph-portrait-of-a-sitting-sad-eyed-pug-puppy.jpg?s=612x612&w=0&k=20&c=f4H5Ww-pU7dNLsvLaCurw52o9QWYiIv5Qh1mL_1JIto=" alt="" class="card-img-top">
+           <h2 class="card-title">Pug</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:12999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 10 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://media.istockphoto.com/id/962855368/photo/beagle-5-years-old-sitting-in-front-of-white-background.jpg?s=612x612&w=0&k=20&c=LSDUgTw68-FNU43TmLQA1_e46lew9iBpGvaJdFB-B1s=" alt="" class="card-img-top">
+           <h2 class="card-title">Beagle</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:19999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 11-->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://previews.123rf.com/images/cynoclub/cynoclub1311/cynoclub131100111/23795123-american-bulldog-in-front-of-white-background.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Bulldog</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:16999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 12 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://i.pinimg.com/736x/cd/da/a0/cddaa0575b1baa33f31292e0343ed65f.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Cocker spaniel</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:30999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+
+         <h2 class="">Explore Our Kittens.....!</h2>
+          <!-- card 13 -->
+        <div class="col-2 mb-5 "><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://imgc.artprintimages.com/img/print/jane-burton-domestic-cat-8-week-seal-point-tonkinese-kitten-sitting_u-l-q10o1ml0.jpg?artHeight=550&artPerspective=n&artWidth=550&background=fbfbfb" alt="" class="card-img-top">
+           <h2 class="card-title">Tonkinese</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:20999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 14 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://static.vecteezy.com/system/resources/previews/025/530/775/non_2x/adorable-sphynx-cat-on-white-background-generative-ai-photo.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Sphynx</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:40999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 15 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://img.freepik.com/premium-photo/photo-siberian-cat-isolated-white-background_912356-1036.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Siberian</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:17999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 16 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://st5.depositphotos.com/36773490/65827/i/450/depositphotos_658271392-stock-photo-beautiful-savannah-cat-sitting-facing.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Toyger</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:70999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 17 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7hqiona4456t%2F6sMNqhN54DMMFdMoSpz2S6%2F400c8df515f562d017c2eb60482bc4e0%2Fturkish_angora.jpg&w=1080&q=75" alt="" class="card-img-top">
+           <h2 class="card-title">Turkish Angora</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:59999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+          <!-- card 18 -->
+        <div class="col-2"><div class="card text-center border-2" style="width: 250px; height: auto;">
+          <div class="card-body">
+           <img src="https://img.freepik.com/premium-photo/russian-blue-cat-isolated-white-background_926936-310.jpg" alt="" class="card-img-top">
+           <h2 class="card-title">Russian Blue</h2>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit 
+             <h4 class="text-danger">RS:89999</h4>
+           </p>
+           <button class="btn btn-outline-primary">Buy Now</button>
+         </div>
+         </div></div>
+    </div>
+    </div>
+      </div>
+    </div>
+      </div>
+    </div>
+      </div>
+    </div>
+      </div>
+    </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid" id="foot1">
+      <div class="row ms-5">
+        <h1 class="text-white text-center">Location</h1>
+        <div class="col-6">
+         <h1 class="text-white">Monito Pets</h1> 
+        <h4 class="text-white">India</h4>
+        <h4 class="text-white">Kerala</h4>
+        <h4 class="text-white">Kochi</h4>
+        <h4 class="text-white">Telephone:+91-1234567890</h4>
+        <h4 class="text-white">Email :Monitopets@gmail.com</h4>
+        <h4 class="text-white">Website : www.monitopets.com</h4>
+        </div>
+        <div class="col-6" id="foot2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251522.09425100486!2d76.26730409827833!3d9.931232799787663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1724767310086!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    
+      
+
+     
+    </div>
+</body>
+
+
+</html>

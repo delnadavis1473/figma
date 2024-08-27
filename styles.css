@@ -1,0 +1,66 @@
+.img1{
+width: 1900px;
+height:850px;
+}
+.container-fluid{
+    background-color:rgb(240, 221, 198)
+}
+.navbar-brand{
+    color: rgb(18, 27, 75);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    size: 100px;
+}
+.background-color{
+    background-color:rgb(240, 221, 198)
+   
+}
+#btn1{
+   margin-left: 200px;
+   width: 150px;
+   height: 40px;
+   display: flex;
+   position: absolute;
+  background-color:  rgb(18, 27, 75);
+  color: white;
+  margin-top:-200px;
+}
+#btn1:hover{
+    animation-name:pop;
+    animation-duration: 0.5s;
+}
+#btn2{
+    margin-left: 500px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+   background-color:  rgb(18, 27, 75);
+   color: white;
+   margin-top:-200px;
+   text-align: center;
+   align-items: center;
+ }
+ #btn2:hover{
+    animation-name:pop;
+    animation-duration: 0.5s;
+}
+ #btn3{
+    background-color:  rgb(18, 27, 75);
+    color: white;
+    width: 150px;
+}
+.text-center{
+    color: rgb(18, 27, 75);
+}
+#foot1{
+    background-color: rgb(8, 15, 54);;
+}
+#foot2{
+    margin-left: 700px;
+    margin-top: -270px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px rgb(175, 178, 179);
+}
